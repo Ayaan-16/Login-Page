@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
+
+$primary-color: #007bff;
+$secondary-color: rgb(56, 56, 56);
+
+@font-face {
+  font-family: "OSTRICH-REGULAR";
+  src: url("./ostrich-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110vh;
+  right: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-md-6 {
+  text-align: center;
+}
+
+.heading-container {
+  font-family: 'OSTRICH-REGULAR';
+  text-align: center;
+  font-size: 300%;
+  margin-bottom: 20px;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 10px;
+  backdrop-filter: blur(4px);
+  width: 600px;
+  height: 500px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.phoneNumber,
+.password {
+  position: relative;
+  top: -300px;
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn {
+  position: relative;
+  top: -300px;
+  left: 50px;
+  display: block;
+  width: 50%;
+  padding: 10px;
+  background-color: $primary-color;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 85px;
+}
+
+.btn:hover {
+  background-color: $secondary-color;
+}
+
+.login-message {
+  position: relative;
+  font-family: 'OSTRICH-REGULAR';
+  top: -300px;
+  right: 15px;
+  color: red;
+  font-size: 30px;
+}
