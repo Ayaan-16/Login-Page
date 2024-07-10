@@ -7,7 +7,11 @@
 
 <p>You can fork this repo to modify and make changes of your own. Please give me proper credit. Thanks!</p>
 
-<p>Log-In Page Built with Beautiful Clean and Modern Design.</p>
+<p>Functional Log-In Page Built with Beautiful Clean and Modern Design.</p><br>
+<p>
+Note: PhoneNumber: 03477058773
+      , Password: Test1234
+</p>
 
 <p>This project was built using these technologies:</p>
 
